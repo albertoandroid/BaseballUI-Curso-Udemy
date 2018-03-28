@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseball_intro1">
+    </item>
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseball_intro2">
+    </item>
+    <item
+        android:id="@+id/amigos"
+        android:title="Amigos">
+    </item>
+    <item
+        android:id="@+id/alerta"
+        android:title="Alerta">
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:title="Logout">
+    </item>
+</menu>
