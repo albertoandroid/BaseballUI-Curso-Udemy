@@ -17,9 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".IntroActivity" />
-        <activity android:name=".InicioActivity"
-            android:theme="@style/AppInicioTheme"
-            ></activity>
+        <activity
+            android:name=".InicioActivity"
+            android:theme="@style/AppInicioTheme" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Login2Activity"></activity>
     </application>
 
 </manifest>

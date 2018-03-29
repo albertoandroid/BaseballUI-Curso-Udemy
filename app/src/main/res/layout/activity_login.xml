@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.androiddesdecero.baseballui.LoginActivity">
+
+    <ImageView
+        android:id="@+id/loginActivityImageView"
+        android:src="@drawable/ic_baseball_intro2"
+        android:tint="@color/colorWhite"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Baseball App"
+        android:id="@+id/loginActivityTextView"
+        android:layout_below="@+id/loginActivityImageView"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/textColorLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_above="@+id/loginActivityTextViewForgot"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="User Name"
+            android:drawableLeft="@drawable/ic_person_login"
+            android:drawableTint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:backgroundTint="@color/colorWhite"
+            android:drawablePadding="8dp"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp">
+        </View>
+
+        <EditText
+            android:hint="Password"
+            android:drawableLeft="@drawable/ic_lock_login"
+            android:drawableTint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:backgroundTint="@color/colorWhite"
+            android:drawablePadding="8dp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp">
+        </View>
+
+        <Button
+            android:id="@+id/loginActivityBtLogin"
+            android:text="Log in"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/gradientbuttonlight"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/loginActivityBtSigup"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorLight"
+            android:background="@drawable/gradientbutonprimary"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="¿Olvidaste la Contraseña?"
+        android:textColor="@color/textColorLight"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/loginActivityTextViewForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
