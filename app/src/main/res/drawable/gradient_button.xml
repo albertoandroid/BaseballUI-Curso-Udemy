@@ -3,4 +3,11 @@
     <gradient android:angle="90"
         android:startColor="@color/colorPrimary"
         android:endColor="@color/colorAccent"/>
+
+    <corners android:radius="4dp"></corners>
+
+    <padding android:right="24dp"
+        android:left="24dp"
+        android:top="4dp"
+        android:bottom="4dp"/>
 </shape>

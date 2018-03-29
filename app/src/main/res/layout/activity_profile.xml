@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.androiddesdecero.baseballui.ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/gradient"
+            android:layout_height="220dp">
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileActivityImage"
+            android:src="@drawable/jugador"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/profileActivityTvName"
+            android:layout_below="@+id/profileActivityImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Alexander Rodriguez"
+            android:textColor="@color/textColorLight"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/profileActivityTvPosicion"
+            android:layout_below="@+id/profileActivityTvName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Tercera Base / Bateador"
+            android:textColor="@color/textColorLight"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.CardView
+            android:layout_below="@+id/profileActivityTvPosicion"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="Dorsal"
+                        android:textSize="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="8dp"
+                        android:text="23"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="Edad"
+                        android:textSize="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="8dp"
+                        android:text="30"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:text="Salario"
+                        android:textSize="14dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:paddingTop="8dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="10M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:paddingLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:tint="@color/colorAccentDark"
+            android:src="@drawable/ic_baseball_intro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:paddingLeft="8dp"
+            android:text="HomeRun 3000"
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:paddingLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:tint="@color/colorAccentDark"
+            android:src="@drawable/ic_baseball_intro2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:paddingLeft="8dp"
+            android:text="Carreras 139"
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gradient_button"
+            android:text="Llamar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gradient_button"
+            android:text="Editar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gradient_button"
+            android:text="Borrar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
