@@ -26,6 +26,10 @@ class InicioActivity : AppCompatActivity() {
                     //startActivity(Intent(this@InicioActivity, SplashActivity::class.java))
                     true
                 }
+                R.id.amigos -> {
+                    startActivity(Intent(this@InicioActivity, AmigosActivity::class.java))
+                    true
+                }
                 else -> false
             }
 
