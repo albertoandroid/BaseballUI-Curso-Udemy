@@ -29,6 +29,7 @@
         <activity android:name=".AnimationActivity" />
         <activity android:name=".FadeActivity" />
         <activity android:name=".TransitionActivity" />
+        <activity android:name=".LikeActivity"></activity>
     </application>
 
 </manifest>

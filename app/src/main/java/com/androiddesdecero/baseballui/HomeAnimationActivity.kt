@@ -37,5 +37,9 @@ class HomeAnimationActivity : AppCompatActivity() {
 
         })
 
+        homeAnimationActivityTvLottie.setOnClickListener({
+            startActivity(Intent(this@HomeAnimationActivity, LikeActivity::class.java))
+        })
+
     }
 }
