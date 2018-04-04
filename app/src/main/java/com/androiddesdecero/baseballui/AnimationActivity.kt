@@ -34,5 +34,13 @@ class AnimationActivity : AppCompatActivity() {
             animatorSet.playTogether(animatorX, alphaAnimation)
             animatorSet.start()
         })
+
+        animationActivityBTRotation.setOnClickListener({
+            var rotateAnimation = ObjectAnimator.ofFloat(animationActivityIvImagen3, "rotation", 0f, 360f)
+            rotateAnimation.setDuration(animationDuration)
+            var animatorSet = AnimatorSet()
+            animatorSet.playTogether(rotateAnimation)
+            animatorSet.start()
+        })
     }
 }
