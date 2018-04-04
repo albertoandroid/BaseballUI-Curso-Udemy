@@ -15,5 +15,10 @@ class HomeAnimationActivity : AppCompatActivity() {
             startActivity(Intent(this@HomeAnimationActivity, AnimationActivity::class.java))
 
         })
+
+        homeAnimationActivityTvFadeInOut.setOnClickListener({
+            startActivity(Intent(this@HomeAnimationActivity, FadeActivity::class.java))
+            overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
+        })
     }
 }
