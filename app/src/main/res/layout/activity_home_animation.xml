@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.androiddesdecero.baseballui.HomeAnimationActivity">
+
+    <TextView
+        android:id="@+id/homeAnimationActivityTvAnimation"
+        android:text="Animation"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@drawable/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/homeAnimationActivityTvFadeInOut"
+        android:text="Fade In Fade Out"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@drawable/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/homeAnimationActivityTvTransition"
+        android:text="Transition"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@drawable/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <ImageView
+        android:id="@+id/homeAnimationActivityIv"
+        android:src="@drawable/ic_baseball_splash"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@drawable/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/homeAnimationActivityTvLottie"
+        android:text="Lottie"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@drawable/gradient"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
